@@ -22,4 +22,9 @@ $ flutter pub get
 
 ## Screenshots
 
-
+<p float="left">
+  <img src="lib/assets/ss1.jpg" alt="ss1" width="250"/>
+  <img src="lib/assets/ss2.jpg" alt="ss2" width="250"/>
+  <img src="lib/assets/ss3.jpg" alt="ss3" width="250"/>
+  <img src="lib/assets/ss4.jpg" alt="ss4" width="250"/>
+</p>

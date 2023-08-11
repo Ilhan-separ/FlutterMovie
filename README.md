@@ -1,16 +1,25 @@
-# video_player
 
-A new Flutter project.
+# FlutterMovie
 
-## Getting Started
+![Flutter](https://img.shields.io/badge/Flutter-027DFD?style=for-the-badge&logo=flutter&logoColor=white)
+<br>
 
-This project is a starting point for a Flutter application.
+Flutter movie app with RestAPI usage and search features
 
-A few resources to get you started if this is your first Flutter project:
+> **Note**
+> current flutter version of project is outdated. You need to write below codes to terminal in order to run the project without error:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+# First upgrade
+$ flutter pub upgrade 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Then clean
+$ flutter clean 
+
+# Finally get
+$ flutter pub get
+```
+
+## Screenshots
+
+

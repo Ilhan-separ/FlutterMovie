@@ -144,23 +144,15 @@ class GenreTile extends StatelessWidget {
         child: ClipRRect(
           borderRadius: BorderRadius.circular(8),
           child: Container(
-            child: Stack(children: [
-              Image(
-                  image: AssetImage('lib/assets/mad_max.jpeg'),
-                  fit: BoxFit.cover,
-                  height: double.infinity,
-                  width: double.infinity,
-                  color: containerColor.withOpacity(0.5),
-                  colorBlendMode: BlendMode.modulate),
-              Padding(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 12.0, vertical: 8.0),
-                child: Text(
-                  genre,
-                  style: normalText.copyWith(fontWeight: FontWeight.bold),
-                ),
+            color: containerColor.withOpacity(0.8),
+            child: Padding(
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 12.0, vertical: 8.0),
+              child: Text(
+                genre,
+                style: normalText.copyWith(fontWeight: FontWeight.bold),
               ),
-            ]),
+            ),
           ),
         ),
       ),
